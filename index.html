@@ -10,22 +10,22 @@
 
 <body background="./assests/images/stripes-light/stripes-light.png">
     </head>
-
     <body>
-        <div class="header">
-            <header>
-                <h1>Austin Kang</h1>
-            </header>
-            <nav>
-                <a href="index.html">About | </a>
-                <a href="portfolio.html">Portfolio | </a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
 
-        <div class="main-container">
-            <section id="main-bio">
-                <h2>About Me</h2>
+        <header id="masthead">
+          <div class="container">
+            <a href="index.html" id="logo">Austin Kang</a>
+            <nav>
+              <a href="index.html">About</a>
+              <a href="portfolio.html">Portfolio</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+          </div>
+        </header>
+      
+        <div id="main-container" class="container">
+          <section class="main-section">
+            <h2>About Me</h2>
                 <p>
                     <img id="image" src="./assests/images/portfolio.jpeg" alt="me"
                         style="width:200px; height:170px; float:left">
@@ -40,10 +40,16 @@
                     My goal is to land a job at a company as a web-developer. I'm super excited to be here and motivated
                     to learn!
                 </p>
-            </section>
+          </section>
+      
         </div>
-
-        <footer>Copyright Austin Kang</footer>
-    </body>
-
+      
+        <footer>
+          <div class="container">
+            Copyright &copy; 
+          </div>
+        </footer>
+      </body>
+      
+      
 </html>
